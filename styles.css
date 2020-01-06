@@ -1,7 +1,7 @@
 /* Rules outside of any media queries apply to all devices (mobile-first). */
 html {
   --primary-color: #845ec2;
-  --secondary-color: #b39cd0;
+  --secondary-color: #9cd0c7;
   --text-primary-color: #fbeaff;
   --text-secondary-color: #00c9a7;
 }
