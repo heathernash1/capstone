@@ -1,0 +1,13 @@
+body {
+  background-color: lightseagreen;
+}
+h1 {
+  color: navy;
+  margin-top: 20em;
+}
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
