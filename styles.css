@@ -19,7 +19,9 @@ body {
   flex: 1;
 }
 
-
+.row {
+  flex-wrap: wrap;
+}
 
 
 h1,
