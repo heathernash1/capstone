@@ -4,7 +4,7 @@
   "description": "**This is the practice project for markdown.**\r ### Small Cars###\r **Cars**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx browser-sync start --server --files '*.html, *.css, *.js'"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-prettier": "^1.1.1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
   }
 }
