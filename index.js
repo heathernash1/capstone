@@ -80,3 +80,12 @@ router
 //         .catch(error => console.error(error))
 //     );
 //   });
+
+
+const quotes = [
+  {
+    quote: 'Hello World',
+    author: 'unknown'
+  }
+]
+
