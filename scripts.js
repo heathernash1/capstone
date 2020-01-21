@@ -5,6 +5,7 @@ const form = document.querySelector("form");
  *  1. Listen for an Event.
  * 2. Use a CB fxn. when this event occurs.
  */
+console.log('attaching')
 form.addEventListener("submit", function(event) {
   event.preventDefault();
   console.log("i am submitted");
