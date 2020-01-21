@@ -108,6 +108,5 @@ The method attribute specifies the HTTP method (GET or POST)
       <!-- Developer's Note: Default 'type' is "submit". -->
       <button>Submit!</button>
     </form>
-    <script src="./scripts.js"></script>
     </div>
 `;
