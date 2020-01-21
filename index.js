@@ -6,7 +6,7 @@ import * as state from "./store";
 
 import Navigo from "navigo";
 
-import axios from "axios";
+// import axios from "axios";
 
 const router = new Navigo(location.origin);
 
@@ -19,7 +19,6 @@ const router = new Navigo(location.origin);
  */
 
 console.log(Navigo);
-
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
 ${Header(st)}

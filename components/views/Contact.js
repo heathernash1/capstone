@@ -3,6 +3,7 @@ export default `
 The action attribute defines where on the server the form data should be sent
 The method attribute specifies the HTTP method (GET or POST)
 -->
+<div class="background">
 
     <form
 
@@ -107,4 +108,5 @@ The method attribute specifies the HTTP method (GET or POST)
       <!-- Developer's Note: Default 'type' is "submit". -->
       <button>Submit!</button>
     </form>
+    </div>
 `;

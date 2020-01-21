@@ -1,35 +1,23 @@
 export default `
-<div id="hero" class="flex align-center justify-center">
-  <!-- Hero image on 'sm' screen. -->
-  <a href="./games/" class="button">Play Now!</a>
-
-
-</div>
-
 <!-- We set up a one flex parent with 3 flex children. -->
-<div class="grid-container">
+<div class="grid-container-games">
 
 
 <!-- start section -->
   <div class="activity-title">
-    <h2>Physical Activities</h2>
+    <h2> Kicking the ball around</h2>
   </div>
   <div class="activity-img">
     <figure>
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYmGNjITtjHOoYpXOCA9ny8q3ct0vd1z0izcdPUWTn0TUd_xwB8g&s"
-        alt="Playground"
+        src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+        alt="Soccer Ball"
       />
     </figure>
   </div>
   <div class="activity-description">
     <p>
-      Outdoor activities can be fun for all ages.  Going to the playground at a local park is a great way to help young children develop physically by climbing, running, and jumping.  While pushing a child on the swing talk about how the force of momentum work.  Talk about gravity when playing with ball. Go for listening walk, when you listen for things around the environment.  Car horn, birds singing, water running, trees rustling, people talking, music playing. Communication skills
-      Taking turns
-      Sharing
-      Winning AND losing graciously
-      Rule following
-      Math skill (most board games have a math element to them when you really think about it…)
+      Outdoor activities can be fun for all ages.  Going to the playground at a local park is a great way to help young children develop physically by climbing, running, and jumping.  While pushing a child on the swing talk about how the force of momentum work.  Talk about gravity when playing with ball.
     </p>
   </div>
 <!-- start section -->
@@ -40,8 +28,8 @@ export default `
           <div class="activity-img" >
             <figure>
               <img
-                src="https://images.unsplash.com/photo-1504151932400-72d4384f04b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-                alt="person holding a baby while reading book"
+                src="https://www.rif.org/sites/default/files/Book_Covers/Caterpillar.jpg"
+                alt="The Very Hungry Caterpillar by Eric Carle"
               />
             </figure>
             </div>
@@ -58,8 +46,8 @@ export default `
 <div class="activity-img">
   <figure>
     <img
-      src="https://images.unsplash.com/photo-1571945227444-5856cd40e6b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-      alt="Carrots"
+      src="https://cdn.business2community.com/wp-content/uploads/2016/03/Farmers_Market_Produce_20307_11641.jpg.jpg"
+      alt="Mrs. Peanuckle's Fruit Alphabet by Mrs. Peanuckle, Jessie Ford"
     />
   </figure>
 </div>
@@ -74,3 +62,5 @@ export default `
 
 
 </div>`;
+
+

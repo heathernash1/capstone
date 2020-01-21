@@ -16,7 +16,7 @@ body {
 h1 {
   color: #4c21b5cc ;
   font-size: 3.209em;
-  background: linear-gradient(#3caa7c70, #7b75d6);
+  background: linear-gradient(#abb73e70, #7b75d6);
   margin-left: 7em;
   margin-right: 7em;
   border-radius: 6em;
@@ -41,6 +41,7 @@ label,
 input,
 button {
   font-size: 1.777em;
+  color: #00008b
 }
 
 figure,
@@ -73,6 +74,8 @@ p {
 form div {
   margin: 0.25rem 0;
   width: 80vw;
+  background: #92aac7;
+
 }
 
 label {
@@ -91,6 +94,7 @@ input,
 textarea {
   border: solid thin var(--primary-color);
   border-radius: 3px;
+  background: #92aac7;
 }
 
 footer {
@@ -110,6 +114,12 @@ footer {
 
 .align-center {
   align-items: center;
+}
+
+.background {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(152,91,217,1) 100%);
+
 }
 
 .button {

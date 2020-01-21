@@ -1,1 +1,1 @@
-export default ["Home", "Games", "Contact"];
+export default ["Home", "Activities", "Games", "Contact"];
