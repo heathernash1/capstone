@@ -106,7 +106,7 @@ The method attribute specifies the HTTP method (GET or POST)
       </div>
 
       <!-- Developer's Note: Default 'type' is "submit". -->
-      <button>Submit!</button>
+      <button type="submit" >Submit!</button>
     </form>
     </div>
 `;
